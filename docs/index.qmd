@@ -1,0 +1,138 @@
+---
+title: "Shared Housing & Demographics in Munich - Data Scraping Project"
+author: "Darius Nader"
+date: "02-29-2025"
+format: html
+
+tbl-colwidths: [75,25]
+tbl-cap-location: top
+
+bibliography: references.bib
+---
+## Background
+
+This project was part of a master's-level course on data scraping with Python. The idea came from reading Miessner’s study on studentification in Göttingen, which describes how a growing student population can influence urban areas, including rising rents and demographic shifts. Landlords may benefit from student tenants due to high turnover rates and shared costs, which can contribute to increasing rental prices [@miessner_studentification_2021].
+
+Given that LMU and TUM are among Germany’s top universities [@shanghairanking_academic_2024], I wanted to see if similar trends might be occurring in Munich, where students make up around 9% of the population as of winter semester 2022/2023 [@statistisches_amt_munchen_monatszahlen-monitoring_2025; @landeshauptstadt_munchen_bildung_2025]. Rather than assuming direct causal relationships, this project focuses on visualizing trends over time rather than proving specific connections. A district-level analysis would be needed to explore potential links between studentification, rent prices, and demographic changes in more detail.
+
+The project maps key developments, including:
+
+1. How have "WG" (shared apartment) rental prices changed across Munich’s districts from 2018 to 2025?
+2. What demographic shifts have taken place between 2014 and 2023, and do they indicate patterns of segregation?  
+3. Is there a connection between rising rents and demographic changes, and are there signs of gentrification or segregation?  
+
+---
+
+## Methodology and Data  
+
+### Sociodemographic Data
+Sociodemographic and geographic data were obtained via the [Open Data Portal](https://opendata.muenchen.de/pages/hilfe) of the City of Munich using API access. The latest available demographic data from the [Indikatoren-Atlas](https://opendata.muenchen.de/pages/indikatorenatlas) is from 2023. I collected the following indicators for every district in Munich:
+
+1. **Migration Background:** Percentage of residents with a migration background.
+2. **Social Benefit Recipients:** Share of 15-64-year-olds receiving unemployment benefits (ALG II).
+3. **Households with Children:** Percentage of households with at least one child under 17.
+4. **Residence Duration:** Average years residents stay at their current address.
+5. **Average Age:** Average age of the residents in a certain district.
+
+### Rental Data  
+The rental data includes the supply median rent and median rent per square meter, aggregated at the district level for each year from 2018 to 2025. It is based on rental listings of shared apartments and does not reflect individual rent prices.
+
+Detected outliers were removed, so that only listings for rooms under 30 square meters and priced between 200–1250€ per month were included. The number of listings per year is as follows:
+
+Table: Table 1: Shared room listings collected per year
+
+| Year  | Count  |
+|--------|--------------|
+| 2025  | 4,437        |
+| 2024  | 13,497       |
+| 2023  | 8,065        |
+| 2022  | 7,775        |
+| 2021  | 8,672        |
+| 2020  | 9,201        |
+| 2019  | 7,830        |
+| 2018  | 6,895        |
+| **Total** | **66,372** |
+
+The dataset for 2025 only covers January and February, resulting in a lower number of listings.
+
+### Demographic Data  
+The demographic dataset includes indicators such as migration background, social benefit recipients, household composition, and average age, covering the years 2014 to 2023. However, data on migration background is missing for 2015, so this variable is visualized from 2014 to 2023.
+
+### Data Visualization  
+The data is presented through interactive choropleth maps. Originally, the analysis was done in a Jupyter Notebook using Python and Plotly. The full code is available in the repository, but the maps can also be explored below. The visualizations allow for year-by-year comparisons, showing how rental prices and demographic patterns have evolved over time.
+
+---
+
+## Munich Housing Data Visualizations
+
+### Rent Development in Munich for Shared Apartments
+#### Absolute Median Rent
+<iframe src="maps/munich_rent_map.html" width="100%" height="500px" style="border:none;"></iframe>
+
+The absolute median rent in Munich has steadily increased from 2018 to 2025, with central districts  consistently showing the highest prices. As Miessner observed in Göttingen, rents tend to decrease further from the center, which is also true for Munich at least for absolute rents [@miessner_studentification_2021, p. 140].
+
+From 2023 onward, central rents regularly reach or exceed 800€. Unlike with per-square-meter prices, absolute rents remain lower in outer districts, suggesting that cheaper shared rooms in general are more common there.
+
+University locations, such as LMU, TUM, and Hochschule München, could influence demand, as Miessner also noted that students often seek housing near their faculties [@miessner_studentification_2021, p. 136]. Further research would be needed to examine these factors in more detail.
+
+#### Median Rent per Square Meter
+<iframe src="maps/munich_sqm-rent_map.html" width="100%" height="500px" style="border:none;"></iframe>
+
+The median rent per square meter in Munich has steadily increased from 2018 to 2025, with rising prices across both central and outer districts. In 2018, most areas fall between 30-37€/m², with Altstadt-Lehel already exceeding 39€/m². By 2022, more districts cross the 40€/m² mark, and from then onward, much of the city reaches 45€/m² or higher, with especially sharp increases in outer districts.
+
+One noticeable trend is that some outer districts, particularly in the west, reach similar or even higher per-square-meter prices than certain central areas. This is surprising since absolute rents remain highest in the center. A possible explanation is that larger rooms and apartments are more common in the center, potentially rented out short-term, which could lower the per-square-meter price. In contrast, outer districts may have a higher proportion of smaller rooms. Additionally, newer developments in suburban areas could also be contributing to these price shifts, considering newer and older buildings.
+
+While this pattern is visible in the data, the underlying reasons would need to be explored in more detail. The differences between per-square-meter and absolute rents suggest that rental structures, apartment sizes, and lease durations may be influencing these trends, but further analysis would be needed to confirm this.
+
+---
+
+### Sociodemographic Development in Munich
+
+#### Population with Migration Background
+<iframe src="maps/munich_migration_map.html" width="100%" height="500px" style="border:none;"></iframe>
+
+From 2014 to 2023, the share of residents with a migration background has increased across all districts, but the rise is particularly clustered in specific areas. The strongest increases appear in Ramersdorf-Perlach and Milbertshofen-Am Hart, followed by Hasenbergl and Moosach. A striking trend is visible in Aubing-Lochhausen-Langwied, where the share has risen by more than 10 percentage points, making it one of the fastest-changing districts.
+
+While the increase is citywide, central districts remain relatively stable, and the growth is concentrated in a few key areas. This pattern suggests a form of segregation, where certain districts see stronger demographic shifts than others. The reasons behind this could include housing availability, affordability, or new developments, but further analysis would be needed to fully understand these trends.
+
+#### Social Benefit Recipients
+<iframe src="maps/munich_benefit_map.html" width="100%" height="500px" style="border:none;"></iframe>
+
+The distribution of social benefit recipients in Munich has remained relatively stable in certain districts over the years. Milbertshofen and Perlach consistently show the highest proportions, around 5-6%, while Hasenbergl starts at a similar level but declines to 3.9% by 2023. In most other districts, the percentage also decreases slightly.
+
+Notably, the districts with the highest share of benefit recipients, Milbertshofen, Perlach, and to a lesser extent Hasenbergl, are also the ones with a higher concentration of residents with a migration background.
+
+Hasenbergl’s decline in benefit recipients stands out, as it coincides with rising rents, raising questions about possible displacement or demographic shifts. Whether this trend reflects upward mobility, relocation to more affordable areas, or changes in the housing stock remains uncertain. The broader decrease in social benefit recipients across many districts might indicate increasing segregation within Munich or movement to areas outside the city. However, further analysis would be needed to understand the underlying causes.
+
+#### Households with Children
+<iframe src="maps/munich_hh-children_map.html" width="100%" height="500px" style="border:none;"></iframe>
+
+The distribution of households with children in Munich has shifted over the years. While eastern districts like Trudering-Riem initially had higher proportions, there has been a noticeable increase in the west, particularly in Aubing-Lochhausen-Langwied. Milbertshofen also shows a moderate rise.
+
+This shift suggests that families may be moving toward more affordable or spacious housing in the western districts. At the same time, the overall concentration of households with children remains higher in outer areas, while central districts continue to have lower proportions. Given rising rent prices, it is unclear whether this reflects a preference for these areas or if affordability constraints are driving these changes.
+
+#### Residence Duration
+<iframe src="maps/munich_residence_map.html" width="100%" height="500px" style="border:none;"></iframe>
+
+The average residence duration at an address shows a clear contrast between western and eastern districts, at least in the beginning. In Aubing-Lochhausen-Langwied and Allach-Untermenzing, where people stayed for around 15 years on average in 2018, the duration drops to about less than 14 years by 2023. At the same time, it increases in eastern districts showing a general pattern of a higher average residence duration in outer districts.
+
+This trend could indicate growing turnover in formerly stable western neighborhoods, possibly due to higher fluctuation. The connection to increasing per-square-meter rents in the west should be further examined, as well as the potential influence of specific demographic shifts or if the higher fluctuation is a result of studentification.
+
+#### Average Age in the Districts
+<iframe src="maps/munich_age_map.html" width="100%" height="500px" style="border:none;"></iframe>
+
+The average age distribution in Munich shows a general pattern of older populations in western and southern districts like Aubing-Lochhausen-Langwied and Hadern, while central areas such as Maxvorstadt and Ludwigsvorstadt-Isarvorstadt remain younger. However, over the last decade, Munich has generally become younger, with some eastern districts also seeing slight decreases in average age.  
+
+Aubing-Lochhausen-Langwied stands out with a stronger age shift, suggesting a rise in the number of younger people alongside higher fluctuation, which could indicate studentification and emerging segregation patterns.However, this again requires further analysis. Meanwhile, Hadern contrasts this trend, showing clear signs of an aging population
+
+---
+
+## Conclusion
+This project was part of a master’s course on data collection and visualization, where my goal was to focus on the rental market for shared rooms and demographic shifts in Munich. Using open data from the City of Munich, the primary objective was to visualize changes over time rather than establish causal relationships. By mapping key indicators such as median rent, migration background, and residence duration, the analysis provides an overview of potential relationship between the rise in rent and demographic shifts.
+
+The findings suggest that rental prices have increased across all districts, with particularly sharp rises in some outer areas. Certain neighborhoods, such as Aubing-Lochhausen-Langwied, show both a rising share of residents with a migration background and decreasing residence duration, which could indicate higher turnover and potential studentification. At the same time, the overall population in Munich appears to be getting younger. Although these observations point to possible segregation processes, they require further analysis. A more detailed investigation at the district level, integrating both quantitative and qualitative research, would be necessary to fully understand the factors driving these developments.
+
+---
+
+### References
+

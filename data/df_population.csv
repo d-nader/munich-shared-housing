@@ -1,0 +1,251 @@
+﻿year,district,migration_background,benefit_recipients,households_children,average_age,residence_duration
+2014,01 Altstadt - Lehel,15.2,1.7,10.56,42.1,10.5
+2014,02 Ludwigsvorstadt - Isarvorstadt,14.8,3.2,10.52,38.7,9.2
+2014,03 Maxvorstadt,15.2,2.3,7.79,38.7,9.6
+2014,04 Schwabing - West,16.6,2.2,11.53,41.5,11.0
+2014,05 Au - Haidhausen,16.1,2.5,13.19,39.8,10.2
+2014,06 Sendling,17.0,3.9,11.21,40.5,11.2
+2014,07 Sendling - Westpark,19.7,3.9,11.04,43.0,12.8
+2014,08 Schwanthalerhöhe,20.7,4.2,11.69,37.4,9.1
+2014,09 Neuhausen - Nymphenburg,17.7,2.8,12.35,41.6,11.3
+2014,10 Moosach,23.3,5.0,12.6,42.8,13.6
+2014,11 Milbertshofen - Am Hart,30.6,6.1,10.9,40.5,12.5
+2014,12 Schwabing - Freimann,20.2,3.2,12.37,41.3,11.7
+2014,13 Bogenhausen,18.4,2.2,14.56,44.1,12.9
+2014,14 Berg am Laim,23.2,5.3,11.5,42.3,12.6
+2014,15 Trudering - Riem,21.4,3.1,22.65,40.2,11.9
+2014,16 Ramersdorf - Perlach,28.4,5.8,12.96,43.8,14.2
+2014,17 Obergiesing - Fasangarten,19.9,4.2,11.1,41.0,11.1
+2014,18 Untergiesing - Harlaching,15.2,3.5,12.54,43.7,12.3
+2014,19 Thalkirchen - Obersendling - Forstenried - Fürstenried - Solln,17.9,2.9,13.25,45.1,13.3
+2014,20 Hadern,21.1,3.8,14.59,44.6,13.9
+2014,21 Pasing - Obermenzing,15.9,2.7,17.24,43.1,12.9
+2014,22 Aubing - Lochhausen - Langwied,20.3,3.7,17.22,44.0,15.2
+2014,23 Allach - Untermenzing,15.3,2.6,20.81,43.1,14.4
+2014,24 Feldmoching - Hasenbergl,25.8,5.5,16.5,42.9,15.4
+2014,25 Laim,17.9,3.7,9.85,43.8,13.2
+2015,01 Altstadt - Lehel,,1.7,10.76,42.1,10.5
+2015,02 Ludwigsvorstadt - Isarvorstadt,,2.9,10.83,38.6,9.2
+2015,03 Maxvorstadt,,2.2,8.14,38.7,9.7
+2015,04 Schwabing - West,,2.3,11.74,41.3,11.1
+2015,05 Au - Haidhausen,,2.4,13.49,39.8,10.4
+2015,06 Sendling,,3.9,11.15,40.5,11.3
+2015,07 Sendling - Westpark,,4.0,11.15,42.7,12.7
+2015,08 Schwanthalerhöhe,,4.1,12.0,37.5,9.3
+2015,09 Neuhausen - Nymphenburg,,2.8,12.64,41.6,11.4
+2015,10 Moosach,,5.1,12.68,42.8,13.7
+2015,11 Milbertshofen - Am Hart,,6.5,11.02,40.5,12.7
+2015,12 Schwabing - Freimann,,3.4,12.63,41.1,11.7
+2015,13 Bogenhausen,,2.1,14.43,44.2,13.0
+2015,14 Berg am Laim,,5.4,11.44,42.2,12.7
+2015,15 Trudering - Riem,,3.3,22.41,40.3,12.1
+2015,16 Ramersdorf - Perlach,,6.0,12.74,43.8,14.3
+2015,17 Obergiesing - Fasangarten,,4.1,11.26,40.8,11.1
+2015,18 Untergiesing - Harlaching,,3.3,12.52,43.9,12.5
+2015,19 Thalkirchen - Obersendling - Forstenried - Fürstenried - Solln,,2.9,13.44,45.1,13.3
+2015,20 Hadern,,3.9,14.49,44.7,14.1
+2015,21 Pasing - Obermenzing,,2.9,17.26,43.2,13.1
+2015,22 Aubing - Lochhausen - Langwied,,3.9,16.95,43.8,15.3
+2015,23 Allach - Untermenzing,,2.5,20.46,43.2,14.6
+2015,24 Feldmoching - Hasenbergl,,5.7,16.47,42.8,15.5
+2015,25 Laim,,3.8,10.03,43.8,13.3
+2016,01 Altstadt - Lehel,15.7,1.6,11.06,42.1,10.6
+2016,02 Ludwigsvorstadt - Isarvorstadt,15.5,2.6,11.12,38.7,9.4
+2016,03 Maxvorstadt,16.1,2.1,8.24,38.8,9.8
+2016,04 Schwabing - West,17.7,2.1,12.01,41.3,11.1
+2016,05 Au - Haidhausen,17.0,2.5,13.76,39.9,10.5
+2016,06 Sendling,17.6,3.6,11.37,40.6,11.4
+2016,07 Sendling - Westpark,20.8,4.0,11.59,42.6,12.7
+2016,08 Schwanthalerhöhe,21.3,3.9,11.98,37.7,9.6
+2016,09 Neuhausen - Nymphenburg,18.7,2.7,12.8,41.6,11.5
+2016,10 Moosach,24.5,5.0,12.63,42.7,13.8
+2016,11 Milbertshofen - Am Hart,31.8,6.3,10.95,40.6,12.8
+2016,12 Schwabing - Freimann,21.2,3.2,13.04,41.0,11.6
+2016,13 Bogenhausen,19.1,2.0,14.57,44.3,13.2
+2016,14 Berg am Laim,25.1,5.2,11.69,42.1,12.7
+2016,15 Trudering - Riem,22.2,3.4,22.34,40.4,12.3
+2016,16 Ramersdorf - Perlach,29.8,5.7,12.87,43.7,14.4
+2016,17 Obergiesing - Fasangarten,20.8,3.9,11.48,40.8,11.3
+2016,18 Untergiesing - Harlaching,15.8,3.2,12.78,43.8,12.6
+2016,19 Thalkirchen - Obersendling - Forstenried - Fürstenried - Solln,18.9,2.7,13.49,45.1,13.5
+2016,20 Hadern,21.9,3.6,14.48,44.9,14.4
+2016,21 Pasing - Obermenzing,16.9,2.8,17.37,43.2,13.1
+2016,22 Aubing - Lochhausen - Langwied,21.7,3.9,17.25,43.6,15.2
+2016,23 Allach - Untermenzing,16.1,2.6,20.57,43.3,14.7
+2016,24 Feldmoching - Hasenbergl,26.3,5.5,16.61,42.7,15.5
+2016,25 Laim,18.8,3.6,10.24,43.6,13.3
+2017,01 Altstadt - Lehel,16.4,1.5,11.15,42.1,10.8
+2017,02 Ludwigsvorstadt - Isarvorstadt,16.1,2.4,11.35,38.7,9.6
+2017,03 Maxvorstadt,16.7,1.9,8.56,38.7,9.9
+2017,04 Schwabing - West,18.2,2.0,12.1,41.4,11.2
+2017,05 Au - Haidhausen,17.5,2.3,13.84,39.9,10.6
+2017,06 Sendling,17.9,3.2,11.39,40.5,11.5
+2017,07 Sendling - Westpark,21.8,3.6,11.62,42.4,12.6
+2017,08 Schwanthalerhöhe,21.7,3.5,12.11,37.7,9.8
+2017,09 Neuhausen - Nymphenburg,19.2,2.6,13.05,41.6,11.6
+2017,10 Moosach,25.4,4.6,12.83,42.7,13.8
+2017,11 Milbertshofen - Am Hart,32.7,6.1,11.06,40.5,13.0
+2017,12 Schwabing - Freimann,22.1,3.1,13.34,40.9,11.6
+2017,13 Bogenhausen,19.7,2.0,14.65,44.3,13.3
+2017,14 Berg am Laim,25.8,5.1,11.84,41.9,12.8
+2017,15 Trudering - Riem,23.2,3.3,22.23,40.5,12.4
+2017,16 Ramersdorf - Perlach,30.7,5.5,13.0,43.5,14.3
+2017,17 Obergiesing - Fasangarten,21.5,3.7,11.77,40.7,11.4
+2017,18 Untergiesing - Harlaching,16.2,3.0,13.09,43.8,12.7
+2017,19 Thalkirchen - Obersendling - Forstenried - Fürstenried - Solln,19.5,2.6,13.59,45.0,13.5
+2017,20 Hadern,22.3,3.5,14.6,45.0,14.5
+2017,21 Pasing - Obermenzing,17.3,2.7,17.56,43.4,13.3
+2017,22 Aubing - Lochhausen - Langwied,22.6,3.8,17.32,43.4,15.2
+2017,23 Allach - Untermenzing,16.6,2.4,20.56,43.4,14.9
+2017,24 Feldmoching - Hasenbergl,27.2,5.2,16.63,42.6,15.6
+2017,25 Laim,19.5,3.4,10.27,43.5,13.3
+2018,01 Altstadt - Lehel,17.2,1.3,11.03,42.1,10.8
+2018,02 Ludwigsvorstadt - Isarvorstadt,16.8,2.3,11.77,38.8,9.7
+2018,03 Maxvorstadt,17.4,1.8,8.61,38.8,10.0
+2018,04 Schwabing - West,18.9,1.9,12.16,41.5,11.4
+2018,05 Au - Haidhausen,18.2,2.1,13.83,40.0,10.7
+2018,06 Sendling,18.6,2.9,11.6,40.6,11.6
+2018,07 Sendling - Westpark,22.8,3.3,11.87,42.3,12.8
+2018,08 Schwanthalerhöhe,22.6,3.1,12.21,37.7,9.9
+2018,09 Neuhausen - Nymphenburg,19.9,2.4,13.23,41.7,11.7
+2018,10 Moosach,26.3,4.1,12.97,42.7,14.0
+2018,11 Milbertshofen - Am Hart,33.7,5.4,11.13,40.4,13.1
+2018,12 Schwabing - Freimann,22.9,2.9,13.88,40.8,11.7
+2018,13 Bogenhausen,20.7,1.9,14.97,44.2,13.3
+2018,14 Berg am Laim,27.1,4.8,12.02,41.9,12.9
+2018,15 Trudering - Riem,24.1,3.1,21.83,40.7,12.6
+2018,16 Ramersdorf - Perlach,31.9,5.3,13.31,43.3,14.4
+2018,17 Obergiesing - Fasangarten,22.6,3.4,11.97,40.8,11.5
+2018,18 Untergiesing - Harlaching,16.9,2.8,13.23,43.8,12.7
+2018,19 Thalkirchen - Obersendling - Forstenried - Fürstenried - Solln,20.5,2.4,13.8,44.9,13.5
+2018,20 Hadern,23.2,3.4,14.57,45.1,14.7
+2018,21 Pasing - Obermenzing,17.9,2.5,17.7,43.5,13.3
+2018,22 Aubing - Lochhausen - Langwied,23.8,3.6,17.39,43.1,15.0
+2018,23 Allach - Untermenzing,17.7,2.1,20.53,43.4,14.9
+2018,24 Feldmoching - Hasenbergl,28.3,4.7,16.87,42.5,15.6
+2018,25 Laim,20.2,3.0,10.27,43.6,13.4
+2019,01 Altstadt - Lehel,18.0,1.1,11.25,42.1,11.0
+2019,02 Ludwigsvorstadt - Isarvorstadt,17.5,2.1,11.91,38.9,9.9
+2019,03 Maxvorstadt,18.1,1.6,8.78,38.9,10.0
+2019,04 Schwabing - West,19.5,1.7,12.43,41.5,11.5
+2019,05 Au - Haidhausen,18.9,1.9,13.97,40.3,10.9
+2019,06 Sendling,19.5,2.6,11.87,40.6,11.7
+2019,07 Sendling - Westpark,23.8,3.0,11.84,42.3,12.9
+2019,08 Schwanthalerhöhe,23.3,2.7,12.54,37.8,10.1
+2019,09 Neuhausen - Nymphenburg,20.8,2.2,13.38,41.7,11.7
+2019,10 Moosach,27.3,3.7,13.27,42.7,14.0
+2019,11 Milbertshofen - Am Hart,35.2,4.9,11.2,40.3,13.1
+2019,12 Schwabing - Freimann,23.7,2.8,14.13,40.9,11.8
+2019,13 Bogenhausen,21.6,1.7,15.45,44.0,13.2
+2019,14 Berg am Laim,28.1,4.7,12.13,41.8,12.9
+2019,15 Trudering - Riem,24.7,2.8,21.64,40.9,12.8
+2019,16 Ramersdorf - Perlach,32.9,5.0,13.43,43.3,14.4
+2019,17 Obergiesing - Fasangarten,23.3,3.2,12.23,40.9,11.6
+2019,18 Untergiesing - Harlaching,17.4,2.5,13.31,43.9,12.8
+2019,19 Thalkirchen - Obersendling - Forstenried - Fürstenried - Solln,21.4,2.3,14.09,44.9,13.5
+2019,20 Hadern,24.0,3.0,14.49,45.2,14.9
+2019,21 Pasing - Obermenzing,19.0,2.4,17.74,43.5,13.4
+2019,22 Aubing - Lochhausen - Langwied,24.8,3.3,17.76,43.0,15.0
+2019,23 Allach - Untermenzing,18.8,1.9,20.58,43.3,14.7
+2019,24 Feldmoching - Hasenbergl,29.3,4.4,16.9,42.6,15.7
+2019,25 Laim,21.2,2.8,10.49,43.5,13.4
+2020,01 Altstadt - Lehel,18.6,1.8,11.6,42.1,11.0
+2020,02 Ludwigsvorstadt - Isarvorstadt,18.0,2.8,11.8,39.1,10.1
+2020,03 Maxvorstadt,18.7,2.1,8.88,39.0,10.1
+2020,04 Schwabing - West,20.0,2.2,12.49,41.7,11.6
+2020,05 Au - Haidhausen,19.6,2.5,14.13,40.2,10.9
+2020,06 Sendling,20.1,3.1,11.94,40.7,11.9
+2020,07 Sendling - Westpark,24.7,3.4,12.11,42.3,13.0
+2020,08 Schwanthalerhöhe,24.1,3.2,12.27,38.0,10.3
+2020,09 Neuhausen - Nymphenburg,21.6,2.6,13.4,41.8,11.9
+2020,10 Moosach,28.2,4.1,13.38,42.7,14.0
+2020,11 Milbertshofen - Am Hart,36.3,5.3,11.51,40.2,13.2
+2020,12 Schwabing - Freimann,24.5,3.3,14.19,41.1,12.0
+2020,13 Bogenhausen,22.5,2.2,15.67,43.8,13.1
+2020,14 Berg am Laim,29.2,5.0,12.32,41.8,13.0
+2020,15 Trudering - Riem,25.6,3.2,21.62,41.1,12.9
+2020,16 Ramersdorf - Perlach,33.9,5.4,13.67,43.2,14.5
+2020,17 Obergiesing - Fasangarten,24.2,3.5,12.3,41.0,11.9
+2020,18 Untergiesing - Harlaching,17.9,2.9,13.34,44.0,12.8
+2020,19 Thalkirchen - Obersendling - Forstenried - Fürstenried - Solln,22.2,2.7,14.32,44.8,13.5
+2020,20 Hadern,24.7,3.2,14.42,45.3,15.0
+2020,21 Pasing - Obermenzing,19.8,2.7,17.65,43.4,13.4
+2020,22 Aubing - Lochhausen - Langwied,26.0,3.5,18.06,42.6,14.8
+2020,23 Allach - Untermenzing,19.5,2.1,20.79,43.2,14.8
+2020,24 Feldmoching - Hasenbergl,30.3,4.5,16.87,42.5,15.7
+2020,25 Laim,22.1,3.0,10.67,43.6,13.6
+2021,01 Altstadt - Lehel,19.1,1.8,11.52,42.0,11.0
+2021,02 Ludwigsvorstadt - Isarvorstadt,18.5,2.8,11.83,39.1,10.1
+2021,03 Maxvorstadt,19.5,2.1,8.93,38.8,10.1
+2021,04 Schwabing - West,20.5,2.1,12.6,41.8,11.7
+2021,05 Au - Haidhausen,20.5,2.4,14.2,40.1,10.9
+2021,06 Sendling,20.8,3.2,12.02,40.8,11.9
+2021,07 Sendling - Westpark,25.6,3.5,12.35,42.2,13.0
+2021,08 Schwanthalerhöhe,25.1,3.3,12.34,38.1,10.4
+2021,09 Neuhausen - Nymphenburg,22.3,2.6,13.56,41.8,12.0
+2021,10 Moosach,29.0,4.2,13.43,42.7,14.1
+2021,11 Milbertshofen - Am Hart,37.5,5.5,11.77,40.2,13.4
+2021,12 Schwabing - Freimann,25.2,3.3,14.58,41.3,12.2
+2021,13 Bogenhausen,23.2,2.3,15.94,43.7,13.1
+2021,14 Berg am Laim,30.6,5.0,12.53,41.8,13.2
+2021,15 Trudering - Riem,26.1,3.3,21.54,41.2,12.9
+2021,16 Ramersdorf - Perlach,34.7,5.4,14.03,43.1,14.6
+2021,17 Obergiesing - Fasangarten,24.8,3.5,12.43,41.1,12.0
+2021,18 Untergiesing - Harlaching,18.6,2.8,13.58,44.0,12.8
+2021,19 Thalkirchen - Obersendling - Forstenried - Fürstenried - Solln,23.0,2.9,14.46,44.7,13.5
+2021,20 Hadern,25.8,3.3,14.48,45.2,15.0
+2021,21 Pasing - Obermenzing,20.8,2.7,17.87,43.3,13.2
+2021,22 Aubing - Lochhausen - Langwied,27.4,3.5,18.72,42.2,14.5
+2021,23 Allach - Untermenzing,20.6,2.2,20.96,42.8,14.4
+2021,24 Feldmoching - Hasenbergl,31.0,4.5,17.02,42.4,15.7
+2021,25 Laim,22.7,3.1,10.51,43.5,13.7
+2022,01 Altstadt - Lehel,19.7,1.3,11.43,42.1,11.2
+2022,02 Ludwigsvorstadt - Isarvorstadt,18.9,2.2,11.68,39.2,10.2
+2022,03 Maxvorstadt,19.9,1.7,8.86,38.8,10.1
+2022,04 Schwabing - West,21.1,1.7,12.49,41.9,11.8
+2022,05 Au - Haidhausen,20.9,2.1,14.11,40.2,10.9
+2022,06 Sendling,21.3,2.8,11.97,40.9,12.0
+2022,07 Sendling - Westpark,26.1,3.1,12.48,42.2,13.1
+2022,08 Schwanthalerhöhe,25.5,2.7,12.32,38.3,10.6
+2022,09 Neuhausen - Nymphenburg,23.0,2.4,13.73,41.9,12.1
+2022,10 Moosach,29.9,3.8,13.53,42.7,14.2
+2022,11 Milbertshofen - Am Hart,38.4,4.9,12.0,40.2,13.4
+2022,12 Schwabing - Freimann,25.7,2.9,14.48,41.6,12.5
+2022,13 Bogenhausen,24.0,2.0,16.01,43.8,13.3
+2022,14 Berg am Laim,31.4,4.5,12.75,41.9,13.4
+2022,15 Trudering - Riem,26.7,2.9,21.44,41.4,13.1
+2022,16 Ramersdorf - Perlach,35.5,4.8,14.29,43.0,14.7
+2022,17 Obergiesing - Fasangarten,25.2,3.1,12.23,41.3,12.1
+2022,18 Untergiesing - Harlaching,19.1,2.4,13.49,44.0,12.8
+2022,19 Thalkirchen - Obersendling - Forstenried - Fürstenried - Solln,23.7,2.5,14.6,44.7,13.6
+2022,20 Hadern,26.8,2.9,14.6,45.0,15.1
+2022,21 Pasing - Obermenzing,21.6,2.4,17.96,43.3,13.2
+2022,22 Aubing - Lochhausen - Langwied,28.6,3.1,19.18,41.7,14.0
+2022,23 Allach - Untermenzing,21.4,2.1,21.45,42.7,14.4
+2022,24 Feldmoching - Hasenbergl,31.7,4.2,17.38,42.4,15.7
+2022,25 Laim,23.4,2.8,10.72,43.5,13.7
+2023,01 Altstadt - Lehel,20.4,1.3,11.28,42.0,11.2
+2023,02 Ludwigsvorstadt - Isarvorstadt,19.2,2.0,11.7,39.4,10.4
+2023,03 Maxvorstadt,20.5,1.7,8.95,38.8,10.1
+2023,04 Schwabing - West,21.7,1.6,12.14,41.9,11.9
+2023,05 Au - Haidhausen,21.6,2.1,13.89,40.3,11.0
+2023,06 Sendling,22.0,2.9,11.74,41.1,12.2
+2023,07 Sendling - Westpark,27.1,3.1,12.37,42.2,13.1
+2023,08 Schwanthalerhöhe,26.1,2.7,11.88,38.7,10.9
+2023,09 Neuhausen - Nymphenburg,23.8,2.3,13.52,42.0,12.2
+2023,10 Moosach,31.1,3.6,13.4,42.6,14.2
+2023,11 Milbertshofen - Am Hart,39.6,4.8,12.24,40.2,13.5
+2023,12 Schwabing - Freimann,26.6,2.9,14.19,41.6,12.6
+2023,13 Bogenhausen,24.9,1.9,15.68,44.0,13.5
+2023,14 Berg am Laim,32.6,4.5,12.58,42.0,13.6
+2023,15 Trudering - Riem,27.8,3.0,20.67,41.7,13.4
+2023,16 Ramersdorf - Perlach,36.7,4.9,14.34,43.0,14.7
+2023,17 Obergiesing - Fasangarten,26.1,2.9,11.88,41.4,12.2
+2023,18 Untergiesing - Harlaching,19.8,2.4,13.39,44.0,12.8
+2023,19 Thalkirchen - Obersendling - Forstenried - Fürstenried - Solln,24.8,2.5,14.63,44.7,13.6
+2023,20 Hadern,27.7,2.8,14.38,45.1,15.0
+2023,21 Pasing - Obermenzing,22.6,2.5,17.75,43.3,13.3
+2023,22 Aubing - Lochhausen - Langwied,30.9,3.3,19.23,41.1,13.7
+2023,23 Allach - Untermenzing,22.5,2.1,21.22,42.6,14.4
+2023,24 Feldmoching - Hasenbergl,32.8,3.9,17.19,42.4,15.8
+2023,25 Laim,24.4,2.9,10.49,43.6,13.8
