@@ -56,7 +56,7 @@ Table: Table 1: Shared room listings collected per year
 The dataset for 2025 only covers January and February, resulting in a lower number of listings.
 
 ### Demographic Data  
-The demographic dataset includes indicators such as migration background, social benefit recipients, household composition, and average age, covering the years 2014 to 2023. However, data on migration background is missing for 2015, so this variable is visualized from 2014 to 2023.
+The demographic dataset includes indicators such as migration background, social benefit recipients, household composition, and average age, covering the years 2014 to 2023.
 
 ### Data Visualization  
 The data is presented through interactive choropleth maps. Originally, the analysis was done in a Jupyter Notebook using Python and Plotly. The full code is available in the repository, but the maps can also be explored below. The visualizations allow for year-by-year comparisons, showing how rental prices and demographic patterns have evolved over time.
